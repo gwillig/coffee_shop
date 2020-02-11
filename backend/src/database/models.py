@@ -18,6 +18,7 @@ def setup_db(app):
     app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
     db.app = app
     db.init_app(app)
+    return db
 
 '''
 db_drop_and_create_all()
@@ -39,6 +40,10 @@ class Drink(db.Model):
     # String Title
     title = Column(String(80), unique=True)
     # the ingredients blob - this stores a lazy json blob
+    '''
+    connection.execute("""INSERT INTO drink(id,title,recipe)
+    VALUES(2,'drink_y','[{"color": "green", "name":"drink_x", "parts":"3"}]')""")
+    '''
     # the required datatype is [{'color': string, 'name':string, 'parts':number}]
     recipe =  Column(String(180), nullable=False)
 
@@ -68,6 +73,7 @@ class Drink(db.Model):
 
     '''
     insert()
+    
         inserts a new model into a database
         the model must have a unique name
         the model must have a unique id or null id
