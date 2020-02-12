@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6565c4ec-a0ac-4b80-8b58-65e4b412df8c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/coffee_shop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/coffee_shop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/api.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/auth/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/auth/auth.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/database/database.db" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/database/database.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/database/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/database/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/database/database.db-journal" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/environments/environment.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +27,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/backend/src/database" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projects\coffee_shop\backend\src\database" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="api" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -116,6 +120,10 @@
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state x="2055" y="442" key="DBNavigator.CreateRenameConsoleDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1578326093154" />
+    <state x="1038" y="209" width="562" height="254" key="DBNavigator.IdleConnectionDialog" timestamp="1581452584852">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="1038" y="209" width="562" height="254" key="DBNavigator.IdleConnectionDialog/0.0.1600.860/1600.-210.1920.1040@0.0.1600.860" timestamp="1581452584852" />
     <state x="408" y="143" key="DBNavigator.ProjectSettingsDialog" timestamp="1581450119768">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -130,26 +138,26 @@
     </state>
     <state x="2105" y="260" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1578326049927" />
     <state x="616" y="215" key="FileChooserDialogImpl/0.0.1600.860/1600.-210.1920.1040@0.0.1600.860" timestamp="1581450117956" />
-    <state width="1875" height="408" key="GridCell.Tab.0.bottom" timestamp="1581451326707">
+    <state width="1555" height="324" key="GridCell.Tab.0.bottom" timestamp="1581535497466">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1897" height="281" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1578324448105" />
-    <state width="1875" height="408" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.-210.1920.1040@0.0.1600.860" timestamp="1581451326707" />
-    <state width="1875" height="408" key="GridCell.Tab.0.center" timestamp="1581451326707">
+    <state width="1555" height="324" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.-210.1920.1040@0.0.1600.860" timestamp="1581535497466" />
+    <state width="1555" height="324" key="GridCell.Tab.0.center" timestamp="1581535497465">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1897" height="281" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1578324448104" />
-    <state width="1875" height="408" key="GridCell.Tab.0.center/0.0.1600.860/1600.-210.1920.1040@0.0.1600.860" timestamp="1581451326707" />
-    <state width="1875" height="408" key="GridCell.Tab.0.left" timestamp="1581451326706">
+    <state width="1555" height="324" key="GridCell.Tab.0.center/0.0.1600.860/1600.-210.1920.1040@0.0.1600.860" timestamp="1581535497465" />
+    <state width="1555" height="324" key="GridCell.Tab.0.left" timestamp="1581535497465">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1897" height="281" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1578324448104" />
-    <state width="1875" height="408" key="GridCell.Tab.0.left/0.0.1600.860/1600.-210.1920.1040@0.0.1600.860" timestamp="1581451326706" />
-    <state width="1875" height="408" key="GridCell.Tab.0.right" timestamp="1581451326707">
+    <state width="1555" height="324" key="GridCell.Tab.0.left/0.0.1600.860/1600.-210.1920.1040@0.0.1600.860" timestamp="1581535497465" />
+    <state width="1555" height="324" key="GridCell.Tab.0.right" timestamp="1581535497465">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1897" height="281" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1578324448104" />
-    <state width="1875" height="408" key="GridCell.Tab.0.right/0.0.1600.860/1600.-210.1920.1040@0.0.1600.860" timestamp="1581451326707" />
+    <state width="1555" height="324" key="GridCell.Tab.0.right/0.0.1600.860/1600.-210.1920.1040@0.0.1600.860" timestamp="1581535497465" />
     <state width="1875" height="347" key="GridCell.Tab.1.bottom" timestamp="1581451264221">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
